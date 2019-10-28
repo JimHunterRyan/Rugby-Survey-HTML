@@ -1,0 +1,20 @@
+body {
+  background-image: url("https://www.irishtimes.com/polopoly_fs/1.3699933.1542361812!/image/image.jpg_gen/derivatives/box_620_330/image.jpg");
+  background-color: #cccccc;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: Sans-Serif;
+  font-size: 15px;
+}
+#maindiv{
+  text-align: left;
+  width: 300px;
+  border: 15px solid grey;
+  padding: 50px;
+  margin: auto;
+  background-color: #cccccc;
+}
+
+#title{
+  text-align:center;
+}

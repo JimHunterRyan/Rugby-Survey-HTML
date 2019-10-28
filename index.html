@@ -1,0 +1,40 @@
+<!DOCTYPE HTML>
+<html>
+<head><link rel="stylesheet" type="text/css" href="mystyle.css"></head>
+	<body>
+  <div id = "maindiv">
+<h1 id="title">Rugby fans survey</h1>
+
+<p id="description">Please fill out this short survey</p>
+<form id="survey-form">
+  <label for="name" id="name-label">Name</label><br>
+  <input type="text" id="name"  required placeholder="Your Name"><br>
+  <label for="email" id="email-label">Email</label><br>
+  <input type="email" id="email"  required placeholder="Your Email address"><br>
+  <label for="number" id="number-label">Age</label><br> 
+  <input type="number" id="number" placeholder="Your age"  min="18" max="100"><br>
+  <label for="dropdown" id="number-label">Which provence are you from?</label><br>
+  
+  <select id="dropdown">
+  <option value="munster">Munster</option>
+  <option value="ulster">Ulster</option>
+  <option value="connaught">Connacht</option>
+  <option value="leinster">Leinster</option>
+</select>
+  <br>
+  <label for="radiobuttons" id="radio-label">What type of fan are you?</label><br> 
+  <input type="radio" name="fan" value="match"> Match attender<br>
+<input type="radio" name="fan" value="tv"> Tv watcher<br>
+<input type="radio" name="fan" value="other"> Other<br>
+  <label for="radiobuttons" id="radio-label">What other sports do you follow?</label><br> 
+  <input type="checkbox" name="sport1" value="soccer"> Soccer<br>
+<input type="checkbox" name="sport2" value="football"> Football<br>
+<input type="checkbox" name="sport3" value="hurling" checked>Hurling<br>
+   <label for="commentbox" id="comment-label">Who is your favourite rugby player?</label><br>
+   <textarea id = "commentbox" rows = "3" cols = "40">Who is your favourite rugby player?</textarea><br>
+  <button type="submit" id="submit">Submit</button>
+  
+  
+    </form></div>
+</body>
+</html>
