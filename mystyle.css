@@ -10,9 +10,10 @@ body {
   text-align: left;
   width: 300px;
   border: 15px solid grey;
+  border-radius: 25px;
   padding: 50px;
   margin: auto;
-  background-color: #cccccc;
+  background: rgba(220, 220, 220, 0.5);
 }
 
 #title{
